@@ -298,10 +298,6 @@ module.exports.ident = function ident (data)
    data.text += `*Bot ID:* \`${data.bot.id}\`\n\n`;
    data.text += `*Chan Name:* \`${data.message.channel.name}\`\n`;
    data.text += `*Chan ID:* \`${data.message.channel.id}\``;
-   data.footer = {
-      "text":
-         "Requires VIEW, SEND, REACT, EMBED, ATTACH and MENTION permissions.\n"
-   };
 
    // -------------
    // Send message

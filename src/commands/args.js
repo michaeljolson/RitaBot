@@ -348,6 +348,7 @@ module.exports = function run (data)
             "mute": cmdMod.mute,
             "prefix": cmdPrefix,
             "proc": cmdMisc.proc,
+            "server": cmdMod.server,
             "settings": cmdSettings,
             "shards": cmdMisc.shards,
             "stats": cmdStats,
